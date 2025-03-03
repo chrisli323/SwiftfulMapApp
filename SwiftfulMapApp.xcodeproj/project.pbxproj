@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C0F98C6E2D69F56800372F9E /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F98C6D2D69F56800372F9E /* Location.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		C0F98C4E2D69F12400372F9E /* SwiftfulMapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulMapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0F98C6D2D69F56800372F9E /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,9 @@
 		C0F98C452D69F12400372F9E = {
 			isa = PBXGroup;
 			children = (
+				C0F98C6C2D69F51800372F9E /* Models */,
+				C0F98C672D69F4AB00372F9E /* Views */,
+				C0F98C692D69F4B100372F9E /* ViewModels */,
 				C0F98C502D69F12400372F9E /* SwiftfulMapApp */,
 				C0F98C4F2D69F12400372F9E /* Products */,
 			);
@@ -43,6 +51,28 @@
 				C0F98C4E2D69F12400372F9E /* SwiftfulMapApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C0F98C672D69F4AB00372F9E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C0F98C692D69F4B100372F9E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C0F98C6C2D69F51800372F9E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C0F98C6D2D69F56800372F9E /* Location.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0F98C6E2D69F56800372F9E /* Location.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
