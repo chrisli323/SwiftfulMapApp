@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C02CB1D82D75C2C800F4FEFB /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02CB1D72D75C2C800F4FEFB /* LocationsViewModel.swift */; };
 		C0395E912D75A82F0052B84B /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0395E902D75A82F0052B84B /* LocationsDataService.swift */; };
 		C0395EA32D75AEFB0052B84B /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0395EA22D75AEFB0052B84B /* LocationsView.swift */; };
 		C0F98C6E2D69F56800372F9E /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F98C6D2D69F56800372F9E /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C02CB1D72D75C2C800F4FEFB /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
 		C0395E902D75A82F0052B84B /* LocationsDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
 		C0395EA22D75AEFB0052B84B /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 		C0F98C4E2D69F12400372F9E /* SwiftfulMapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulMapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +79,7 @@
 		C0F98C692D69F4B100372F9E /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				C02CB1D72D75C2C800F4FEFB /* LocationsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C02CB1D82D75C2C800F4FEFB /* LocationsViewModel.swift in Sources */,
 				C0395E912D75A82F0052B84B /* LocationsDataService.swift in Sources */,
 				C0395EA32D75AEFB0052B84B /* LocationsView.swift in Sources */,
 				C0F98C6E2D69F56800372F9E /* Location.swift in Sources */,
